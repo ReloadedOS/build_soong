@@ -490,6 +490,8 @@ type productVariables struct {
 	SepolicyFreezeTestExtraPrebuiltDirs []string `json:",omitempty"`
 
 	GenerateAidlNdkPlatformBackend bool `json:",omitempty"`
+
+	ForceMultilibFirstOnDevice bool `json:",omitempty"`
 }
 
 func boolPtr(v bool) *bool {
